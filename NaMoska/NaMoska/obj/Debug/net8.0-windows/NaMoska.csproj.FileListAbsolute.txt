@@ -1,0 +1,17 @@
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\bin\Debug\net8.0-windows\NaMoska.exe
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\bin\Debug\net8.0-windows\NaMoska.deps.json
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\bin\Debug\net8.0-windows\NaMoska.runtimeconfig.json
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\bin\Debug\net8.0-windows\NaMoska.dll
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\bin\Debug\net8.0-windows\NaMoska.pdb
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.Form1.resources
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.Properties.Resources.resources
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.csproj.GenerateResource.cache
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.AssemblyInfoInputs.cache
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.AssemblyInfo.cs
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.csproj.CoreCompileInputs.cache
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.dll
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\refint\NaMoska.dll
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.pdb
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\NaMoska.genruntimeconfig.cache
+C:\Users\dm210\DS_2K25\Arquivos_DPL\Constructor\NaMoska\NaMoska\obj\Debug\net8.0-windows\ref\NaMoska.dll
