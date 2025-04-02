@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dm210\\DS_2K25\\Arquivos_DPL\\Constructor\\NaMoska\\NaMoska\\NaMoska.csproj": {}
+    "C:\\Users\\dm210\\OneDrive\\Documentos\\GitHub\\NaMoska\\NaMoska\\NaMoska\\NaMoska.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dm210\\DS_2K25\\Arquivos_DPL\\Constructor\\NaMoska\\NaMoska\\NaMoska.csproj": {
+    "C:\\Users\\dm210\\OneDrive\\Documentos\\GitHub\\NaMoska\\NaMoska\\NaMoska\\NaMoska.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dm210\\DS_2K25\\Arquivos_DPL\\Constructor\\NaMoska\\NaMoska\\NaMoska.csproj",
+        "projectUniqueName": "C:\\Users\\dm210\\OneDrive\\Documentos\\GitHub\\NaMoska\\NaMoska\\NaMoska\\NaMoska.csproj",
         "projectName": "NaMoska",
-        "projectPath": "C:\\Users\\dm210\\DS_2K25\\Arquivos_DPL\\Constructor\\NaMoska\\NaMoska\\NaMoska.csproj",
+        "projectPath": "C:\\Users\\dm210\\OneDrive\\Documentos\\GitHub\\NaMoska\\NaMoska\\NaMoska\\NaMoska.csproj",
         "packagesPath": "C:\\Users\\dm210\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dm210\\DS_2K25\\Arquivos_DPL\\Constructor\\NaMoska\\NaMoska\\obj\\",
+        "outputPath": "C:\\Users\\dm210\\OneDrive\\Documentos\\GitHub\\NaMoska\\NaMoska\\NaMoska\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

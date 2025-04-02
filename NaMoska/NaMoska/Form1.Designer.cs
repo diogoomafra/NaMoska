@@ -29,56 +29,72 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            button1 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            linkLabel1 = new LinkLabel();
+            btnEntrar = new Button();
+            txbUsuario = new TextBox();
+            txbSenha = new TextBox();
+            linklbl_conta = new LinkLabel();
+            btn_checkpass = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnEntrar
             // 
-            button1.BackColor = SystemColors.ButtonFace;
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(472, 559);
-            button1.Name = "button1";
-            button1.Size = new Size(317, 90);
-            button1.TabIndex = 0;
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            btnEntrar.BackColor = SystemColors.ButtonFace;
+            btnEntrar.BackgroundImage = (Image)resources.GetObject("btnEntrar.BackgroundImage");
+            btnEntrar.FlatAppearance.BorderSize = 0;
+            btnEntrar.FlatStyle = FlatStyle.Flat;
+            btnEntrar.ForeColor = Color.Black;
+            btnEntrar.Location = new Point(472, 559);
+            btnEntrar.Name = "btnEntrar";
+            btnEntrar.Size = new Size(317, 90);
+            btnEntrar.TabIndex = 0;
+            btnEntrar.UseVisualStyleBackColor = false;
+            btnEntrar.Click += btnEntrar_Click;
             // 
-            // textBox1
+            // txbUsuario
             // 
-            textBox1.BackColor = Color.DarkGray;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Location = new Point(432, 282);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(397, 49);
-            textBox1.TabIndex = 1;
-            textBox1.TextChanged += textBox1_TextChanged;
+            txbUsuario.BackColor = Color.DarkGray;
+            txbUsuario.BorderStyle = BorderStyle.None;
+            txbUsuario.Location = new Point(432, 282);
+            txbUsuario.Multiline = true;
+            txbUsuario.Name = "txbUsuario";
+            txbUsuario.Size = new Size(397, 49);
+            txbUsuario.TabIndex = 1;
+            txbUsuario.TextChanged += textBox1_TextChanged;
             // 
-            // textBox2
+            // txbSenha
             // 
-            textBox2.BackColor = Color.DarkGray;
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Location = new Point(432, 449);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(397, 50);
-            textBox2.TabIndex = 2;
+            txbSenha.BackColor = Color.DarkGray;
+            txbSenha.BorderStyle = BorderStyle.None;
+            txbSenha.Location = new Point(432, 449);
+            txbSenha.Multiline = true;
+            txbSenha.Name = "txbSenha";
+            txbSenha.Size = new Size(397, 50);
+            txbSenha.TabIndex = 2;
             // 
-            // linkLabel1
+            // linklbl_conta
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(584, 652);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(81, 20);
-            linkLabel1.TabIndex = 3;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Criar conta";
+            linklbl_conta.AutoSize = true;
+            linklbl_conta.Location = new Point(584, 652);
+            linklbl_conta.Name = "linklbl_conta";
+            linklbl_conta.Size = new Size(81, 20);
+            linklbl_conta.TabIndex = 3;
+            linklbl_conta.TabStop = true;
+            linklbl_conta.Text = "Criar conta";
+            linklbl_conta.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // btn_checkpass
+            // 
+            btn_checkpass.BackColor = Color.Transparent;
+            btn_checkpass.BackgroundImage = (Image)resources.GetObject("btn_checkpass.BackgroundImage");
+            btn_checkpass.BackgroundImageLayout = ImageLayout.Stretch;
+            btn_checkpass.Cursor = Cursors.Hand;
+            btn_checkpass.FlatStyle = FlatStyle.Flat;
+            btn_checkpass.ForeColor = Color.Transparent;
+            btn_checkpass.Location = new Point(862, 456);
+            btn_checkpass.Name = "btn_checkpass";
+            btn_checkpass.Size = new Size(39, 36);
+            btn_checkpass.TabIndex = 6;
+            btn_checkpass.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -87,10 +103,11 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
-            Controls.Add(linkLabel1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
+            Controls.Add(btn_checkpass);
+            Controls.Add(linklbl_conta);
+            Controls.Add(txbSenha);
+            Controls.Add(txbUsuario);
+            Controls.Add(btnEntrar);
             DoubleBuffered = true;
             Name = "Form1";
             Text = "NaMoska";
@@ -100,9 +117,10 @@
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private LinkLabel linkLabel1;
+        private Button btnEntrar;
+        private TextBox txbUsuario;
+        private TextBox txbSenha;
+        private LinkLabel linklbl_conta;
+        private Button btn_checkpass;
     }
 }
