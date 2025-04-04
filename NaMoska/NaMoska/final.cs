@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace NaMoska
 {
+    
     public partial class final : Form
     {
+        private int pontosrec, temporec;
         public final(int pontos, int tempo)
         {
 
@@ -19,7 +21,8 @@ namespace NaMoska
 
             lblClics.Text = pontos.ToString();
             lblSeg.Text = tempo.ToString();
-
+            pontosrec = pontos;
+            temporec = tempo;
 
         }
 
@@ -31,7 +34,7 @@ namespace NaMoska
         private void btnVoltar_Click(object sender, EventArgs e)
         {
              SaveFileDialog saveFileDialog = new SaveFileDialog();
-             saveFileDialog.Filter = "Arquivos de Texto (.txt)|.txt|Todos os Arquivos (.)|.";
+             saveFileDialog.Filter = "Arquivos de Texto (.txt)|.txt|Todos os Arquivos (.)|."; 
              saveFileDialog.Title = "Salvar Arquivo";
              saveFileDialog.DefaultExt = "txt";
              saveFileDialog.FileName = "arquivo";
@@ -43,7 +46,7 @@ namespace NaMoska
 
                  writer = File.AppendText(caminhoArquivo); //continua escrevendo no arquivo já existente (append)
 
-                 writer.WriteLine("Cliques: " +lblClics+ ";" +lblSeg+ ";");
+                 writer.WriteLine($"Cliques: {pontosrec} em {temporec} segundos;");
                  writer.Close();
 
              }

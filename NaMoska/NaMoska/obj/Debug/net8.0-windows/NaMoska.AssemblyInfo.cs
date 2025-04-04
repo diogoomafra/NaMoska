@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NaMoska")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c386426f69193c86e1e3048287086414565aa70")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b56463662a78f58f14f9f3e381828be3475cf7dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("NaMoska")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NaMoska")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
