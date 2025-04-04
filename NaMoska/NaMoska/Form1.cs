@@ -37,7 +37,7 @@ namespace NaMoska
             if (autenticado)
             {
 
-                Form Timer= new Tempo();
+                Form Timer = new Tempo();
                 this.Hide();
                 Timer.Show();
 
@@ -56,6 +56,21 @@ namespace NaMoska
             this.Hide();
             cadastro.Show();
 
+        }
+
+        private void btn_checkpass_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txbSenha.UseSystemPasswordChar = !txbSenha.UseSystemPasswordChar;
         }
     }
 }

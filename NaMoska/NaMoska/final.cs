@@ -16,10 +16,10 @@ namespace NaMoska
         {
 
             InitializeComponent();
-               
+
             lblClics.Text = pontos.ToString();
             lblSeg.Text = tempo.ToString();
- 
+
 
         }
 
@@ -27,5 +27,58 @@ namespace NaMoska
         {
 
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+             SaveFileDialog saveFileDialog = new SaveFileDialog();
+             saveFileDialog.Filter = "Arquivos de Texto (.txt)|.txt|Todos os Arquivos (.)|.";
+             saveFileDialog.Title = "Salvar Arquivo";
+             saveFileDialog.DefaultExt = "txt";
+             saveFileDialog.FileName = "arquivo";
+
+             if (saveFileDialog.ShowDialog() == DialogResult.OK)
+             {
+                 string caminhoArquivo = saveFileDialog.FileName;
+                 StreamWriter writer; //cria a variável para abrir o arquivo de texto
+
+                 writer = File.AppendText(caminhoArquivo); //continua escrevendo no arquivo já existente (append)
+
+                 writer.WriteLine("Cliques: " +lblClics+ ";" +lblSeg+ ";");
+                 writer.Close();
+
+             }
+
+            
+            // Voltar para o formulário de tempo
+            Form timer = new Tempo();
+            this.Hide();
+            timer.Show();
+        }
+
+        /*private void SaveGameData()
+        {
+            // Obtém o caminho da área de trabalho
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string filePath = Path.Combine(desktopPath, "historico.txt"); // Nome do arquivo
+
+            string scoreEntry = $"Data: {   DateTime.Now:g} - Pontuação: {lblClics.Text}, Tempo: {lblSeg.Text}";
+
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(filePath, true))
+                {
+                    writer.WriteLine(scoreEntry);
+                }
+                MessageBox.Show("Dados salvos com sucesso na área de trabalho!");
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                MessageBox.Show("Erro: Você não tem permissão para gravar neste local. " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao salvar os dados: " + ex.Message);
+            }
+        }*/
     }
 }

@@ -60,6 +60,7 @@
             btnplay30.Size = new Size(51, 42);
             btnplay30.TabIndex = 1;
             btnplay30.UseVisualStyleBackColor = false;
+            btnplay30.Click += btnplay30_Click_1;
             // 
             // btnplay60
             // 
@@ -73,6 +74,7 @@
             btnplay60.Size = new Size(52, 41);
             btnplay60.TabIndex = 2;
             btnplay60.UseVisualStyleBackColor = false;
+            btnplay60.Click += btnplay60_Click_2;
             // 
             // Tempo
             // 

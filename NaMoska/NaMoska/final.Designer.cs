@@ -32,7 +32,6 @@
             lblClics = new Label();
             lblSeg = new Label();
             btnVoltar = new Button();
-            linlblsalvar = new LinkLabel();
             SuspendLayout();
             // 
             // lblClics
@@ -43,9 +42,8 @@
             lblClics.Font = new Font("Impact", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblClics.Location = new Point(455, 333);
             lblClics.Name = "lblClics";
-            lblClics.Size = new Size(50, 42);
+            lblClics.Size = new Size(0, 42);
             lblClics.TabIndex = 0;
-            lblClics.Text = "21";
             // 
             // lblSeg
             // 
@@ -55,9 +53,8 @@
             lblSeg.Font = new Font("Impact", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSeg.Location = new Point(558, 452);
             lblSeg.Name = "lblSeg";
-            lblSeg.Size = new Size(50, 42);
+            lblSeg.Size = new Size(0, 42);
             lblSeg.TabIndex = 1;
-            lblSeg.Text = "21";
             // 
             // btnVoltar
             // 
@@ -72,19 +69,7 @@
             btnVoltar.Size = new Size(461, 95);
             btnVoltar.TabIndex = 2;
             btnVoltar.UseVisualStyleBackColor = false;
-            // 
-            // linlblsalvar
-            // 
-            linlblsalvar.ActiveLinkColor = SystemColors.Highlight;
-            linlblsalvar.AutoSize = true;
-            linlblsalvar.BackColor = SystemColors.ControlLight;
-            linlblsalvar.LinkColor = Color.Blue;
-            linlblsalvar.Location = new Point(568, 629);
-            linlblsalvar.Name = "linlblsalvar";
-            linlblsalvar.Size = new Size(137, 20);
-            linlblsalvar.TabIndex = 3;
-            linlblsalvar.TabStop = true;
-            linlblsalvar.Text = "Salvar meu recorde";
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // final
             // 
@@ -93,7 +78,6 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
-            Controls.Add(linlblsalvar);
             Controls.Add(btnVoltar);
             Controls.Add(lblSeg);
             Controls.Add(lblClics);
@@ -110,6 +94,5 @@
         private Label lblClics;
         private Label lblSeg;
         private Button btnVoltar;
-        private LinkLabel linlblsalvar;
     }
 }

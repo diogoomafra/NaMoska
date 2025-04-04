@@ -34,7 +34,6 @@
             txbUsuarioReg = new TextBox();
             txbSenhaReg = new TextBox();
             txbConfSenha = new TextBox();
-            btn_checkpass = new Button();
             SuspendLayout();
             // 
             // linkLabel1
@@ -64,7 +63,8 @@
             // 
             txbUsuarioReg.BackColor = Color.DarkGray;
             txbUsuarioReg.BorderStyle = BorderStyle.None;
-            txbUsuarioReg.ForeColor = Color.Transparent;
+            txbUsuarioReg.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbUsuarioReg.ForeColor = SystemColors.WindowText;
             txbUsuarioReg.Location = new Point(431, 228);
             txbUsuarioReg.Multiline = true;
             txbUsuarioReg.Name = "txbUsuarioReg";
@@ -76,7 +76,8 @@
             // 
             txbSenhaReg.BackColor = Color.DarkGray;
             txbSenhaReg.BorderStyle = BorderStyle.None;
-            txbSenhaReg.ForeColor = Color.Transparent;
+            txbSenhaReg.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txbSenhaReg.ForeColor = SystemColors.WindowText;
             txbSenhaReg.Location = new Point(431, 357);
             txbSenhaReg.Multiline = true;
             txbSenhaReg.Name = "txbSenhaReg";
@@ -87,25 +88,12 @@
             // 
             txbConfSenha.BackColor = Color.DarkGray;
             txbConfSenha.BorderStyle = BorderStyle.None;
+            txbConfSenha.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txbConfSenha.Location = new Point(431, 489);
             txbConfSenha.Multiline = true;
             txbConfSenha.Name = "txbConfSenha";
             txbConfSenha.Size = new Size(397, 49);
             txbConfSenha.TabIndex = 4;
-            // 
-            // btn_checkpass
-            // 
-            btn_checkpass.BackColor = Color.Transparent;
-            btn_checkpass.BackgroundImage = (Image)resources.GetObject("btn_checkpass.BackgroundImage");
-            btn_checkpass.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_checkpass.Cursor = Cursors.Hand;
-            btn_checkpass.FlatStyle = FlatStyle.Flat;
-            btn_checkpass.ForeColor = Color.Transparent;
-            btn_checkpass.Location = new Point(862, 364);
-            btn_checkpass.Name = "btn_checkpass";
-            btn_checkpass.Size = new Size(39, 36);
-            btn_checkpass.TabIndex = 5;
-            btn_checkpass.UseVisualStyleBackColor = false;
             // 
             // Cadastro
             // 
@@ -114,7 +102,6 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
-            Controls.Add(btn_checkpass);
             Controls.Add(txbConfSenha);
             Controls.Add(txbSenhaReg);
             Controls.Add(txbUsuarioReg);
@@ -135,6 +122,5 @@
         private TextBox txbSenhaReg;
         private TextBox txbConfSenha;
         private Button button2;
-        private Button btn_checkpass;
     }
 }

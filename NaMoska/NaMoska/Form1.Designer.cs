@@ -33,7 +33,6 @@
             txbUsuario = new TextBox();
             txbSenha = new TextBox();
             linklbl_conta = new LinkLabel();
-            btn_checkpass = new Button();
             SuspendLayout();
             // 
             // btnEntrar
@@ -54,10 +53,11 @@
             // 
             txbUsuario.BackColor = Color.DarkGray;
             txbUsuario.BorderStyle = BorderStyle.None;
+            txbUsuario.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txbUsuario.Location = new Point(432, 282);
             txbUsuario.Multiline = true;
             txbUsuario.Name = "txbUsuario";
-            txbUsuario.Size = new Size(397, 49);
+            txbUsuario.Size = new Size(397, 50);
             txbUsuario.TabIndex = 1;
             txbUsuario.TextChanged += textBox1_TextChanged;
             // 
@@ -65,11 +65,13 @@
             // 
             txbSenha.BackColor = Color.DarkGray;
             txbSenha.BorderStyle = BorderStyle.None;
+            txbSenha.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txbSenha.Location = new Point(432, 449);
             txbSenha.Multiline = true;
             txbSenha.Name = "txbSenha";
             txbSenha.Size = new Size(397, 50);
             txbSenha.TabIndex = 2;
+            txbSenha.UseSystemPasswordChar = true;
             // 
             // linklbl_conta
             // 
@@ -82,20 +84,6 @@
             linklbl_conta.Text = "Criar conta";
             linklbl_conta.LinkClicked += linkLabel1_LinkClicked;
             // 
-            // btn_checkpass
-            // 
-            btn_checkpass.BackColor = Color.Transparent;
-            btn_checkpass.BackgroundImage = (Image)resources.GetObject("btn_checkpass.BackgroundImage");
-            btn_checkpass.BackgroundImageLayout = ImageLayout.Stretch;
-            btn_checkpass.Cursor = Cursors.Hand;
-            btn_checkpass.FlatStyle = FlatStyle.Flat;
-            btn_checkpass.ForeColor = Color.Transparent;
-            btn_checkpass.Location = new Point(862, 456);
-            btn_checkpass.Name = "btn_checkpass";
-            btn_checkpass.Size = new Size(39, 36);
-            btn_checkpass.TabIndex = 6;
-            btn_checkpass.UseVisualStyleBackColor = false;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -103,7 +91,6 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
-            Controls.Add(btn_checkpass);
             Controls.Add(linklbl_conta);
             Controls.Add(txbSenha);
             Controls.Add(txbUsuario);

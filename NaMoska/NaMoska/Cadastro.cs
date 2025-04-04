@@ -42,9 +42,9 @@ namespace NaMoska
                 MessageBox.Show("Caracteres inválidos");//caixa de texto, avisar que os caracteres são invalidos
 
             }
-            else if (txbConfSenha.Text==txbSenhaReg.Text)
+            else if (txbConfSenha.Text == txbSenhaReg.Text)
             {
-                 
+
                 string caminhoarquivo = ("arquivo.txt"); //salvar arquivos no diretório do código "./x.txt"
                 StreamWriter writer; //cria a variável para abrir o arquivo de texto
 
@@ -63,5 +63,6 @@ namespace NaMoska
 
             }
         }
+
     }
 }
