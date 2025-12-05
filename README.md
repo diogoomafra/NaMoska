@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎯 NaMoska - Jogo da Mosca
 
 Um jogo interativo desenvolvido em **C#** utilizando **.NET 8.0** e **Windows Forms**, onde o objetivo é capturar elementos gráficos (Mosca - Apelido do professor da disciplina) que aparecem aleatoriamente na tela dentro de um tempo determinado.
